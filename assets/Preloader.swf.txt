@@ -1,0 +1,9 @@
+
+source: %/E/kingBook/develop/projects_b/rswf-join-example/assets/Preloader.swf 
+source-modified: 16-Apr-2018/10:51:48+8:00 
+was-used-ids: [] 
+new-used-ids: [1 2 3 4 5 6 7] 
+last-depth: none 
+new-ids-table: [] 
+new-labels: [] 
+frames: 1

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/2.6">
+
+
+	<id>com.Game.Test</id>
+	<filename>Game</filename>
+
+	<name>Game</name>
+	
+	<versionNumber>1.0</versionNumber>
+		         
+	
+	<initialWindow>
+		<content>Game.swf</content>
+		<autoOrients>false</autoOrients>
+		<aspectRatio>landscape</aspectRatio>
+        <fullScreen>true</fullScreen>
+       	<visible>true</visible>
+       	<renderMode>gpu</renderMode>
+       	<width>1024</width>
+       	<height>768</height>
+  	</initialWindow>
+
+	<icon>
+		<image29x29>Icon-Small.png</image29x29>
+		<image57x57>Icon.png</image57x57>
+		<image72x72>Icon-72.png</image72x72>
+		<image114x114>Icon@2x.png</image114x114>
+		<image512x512>iTunesArtwork.png</image512x512>
+	</icon>
+
+	<iPhone>
+        <InfoAdditions><![CDATA[
+			<key>UIDeviceFamily</key>
+			<array>
+				<string>2</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
+		]]></InfoAdditions>
+		<requestedDisplayResolution>high</requestedDisplayResolution>
+    </iPhone>
+    
+    
+</application>

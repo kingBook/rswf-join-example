@@ -1,0 +1,18 @@
+REBOL [
+	title: "Example game-join for iPad"
+	type: 10
+	file: %public/Game.swf
+	rate: 30
+	size: 1024x768
+	compressed: false
+]
+
+background 0.0.0
+FileAttributes 2#{0 11 01000000000000000000000000000}
+import-swf %assets/Preloader.swf     no show
+import-swf %assets/ExampleLevel1.swf no show
+import-swf %assets/ExampleLevel2.swf no show
+import-swf %assets/ExampleMain.swf   no show
+
+showFrame
+end
